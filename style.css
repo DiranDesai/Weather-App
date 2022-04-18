@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-container{
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(43, 208, 226, 0.46);
+}
+
+.data img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.data .weather-info{
+    line-height: 20px;
+}
