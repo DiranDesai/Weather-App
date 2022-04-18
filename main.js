@@ -264,7 +264,7 @@ function renderCountryOptions(){
 
 function handleCountriesChange(e){
     const country = e.target.value;
-    const url = `http://api.weatherstack.com/current?access_key=${key}&query=${country}`;
+    const url = `https://api.weatherstack.com/current?access_key=${key}&query=${country}`;
 
     makeRequest(url);
 }
